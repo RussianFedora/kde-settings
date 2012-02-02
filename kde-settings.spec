@@ -6,7 +6,7 @@ Release: 1%{?dist}.R
 Group: System Environment/Base
 License: Public Domain
 Url: http://fedorahosted.org/kde-settings
-Source0: https://fedorahosted.org/releases/k/d/kde-settings/%{name}-%{version}.tar.bz2
+Source0: %{name}-%{version}.tar.bz2
 Source1: kxkbrc
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-root-%(%{__id_u} -n)
 BuildArch: noarch
